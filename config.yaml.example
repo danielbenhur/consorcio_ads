@@ -1,0 +1,20 @@
+# Credenciais e parâmetros para Google Ads
+google_ads:
+  developer_token: "SEU_DEVELOPER_TOKEN"
+  client_id: "SEU_OAUTH2_CLIENT_ID"
+  client_secret: "SEU_OAUTH2_CLIENT_SECRET"
+  refresh_token: "SEU_REFRESH_TOKEN"
+  login_customer_id: "SEU_LOGIN_CUSTOMER_ID"
+
+# Lista de termos semente para gerar palavras‑chave
+seeds:
+  - "consórcio imóvel"
+  - "consórcio automotivo"
+  - "consórcio serviços"
+
+# Parâmetros de filtragem
+filter:
+  input_csv: "palavras_planner.csv"
+  output_csv: "palavras_filtradas.csv"
+  max_cpc: 2.0        # CPC máximo em reais
+  min_volume: 50      # buscas mínimas por mês
